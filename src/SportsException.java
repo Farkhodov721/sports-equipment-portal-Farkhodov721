@@ -1,6 +1,5 @@
-@SuppressWarnings("serial")
 public class SportsException extends Exception {
-    public SportsException (String reason) {
-        super(reason);
+    public SportsException(String message) {
+        super(message);
     }
 }
